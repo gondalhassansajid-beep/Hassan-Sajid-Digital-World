@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Hassan Sajid Digital World: games, AI experiments, web development, Islamic projects, and creative work.">
+  <title>HASSAN SAJID | DIGITAL WORLD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Hassan Sajid Digital World home">
+      <span class="brand-mark">HS</span>
+      <span>HASSAN <b>SAJID</b><small>DIGITAL WORLD</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">☼</button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span> PERSONAL PROJECT HUB</div>
+        <h1>Welcome to my<br><span>Digital World.</span></h1>
+        <p class="hero-text">I’m Hassan Sajid. Explore my games, web apps, AI experiments, creative edits, and learning projects, all gathered in one place.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="btn btn-secondary" href="#about">About Me</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong id="projectCount">10+</strong><span>Project ideas</span></div>
+          <div><strong>HTML · CSS · JS</strong><span>Web technologies</span></div>
+          <div><strong>Always learning</strong><span>Building step by step</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Digital technology illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core-card">
+          <div class="core-top"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span><span class="core-label">SYSTEM ONLINE</span></div>
+          <div class="monogram">HS<span>_</span></div>
+          <div class="core-name">HASSAN SAJID</div>
+          <div class="core-subtitle">CREATOR • DEVELOPER • LEARNER</div>
+          <div class="code-lines"><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="float-chip chip-one">✦ Creative Ideas</div>
+        <div class="float-chip chip-two">⌘ Web Projects</div>
+        <div class="float-chip chip-three">◈ AI Experiments</div>
+      </div>
+    </section>
+
+    <section class="section-wrap projects-section" id="projects">
+      <div class="section-heading">
+        <div><div class="eyebrow">MY WORKSPACE</div><h2>Explore <span>Projects</span></h2></div>
+        <p>Find a project by name or choose a category. Add your real project links in <code>script.js</code>.</p>
+      </div>
+      <div class="project-tools">
+        <label class="search-box"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects..." aria-label="Search projects"></label>
+        <div class="filters" id="filters" aria-label="Project categories">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="games">Games</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="ai">AI & Video</button>
+          <button class="filter-btn" data-filter="creative">Creative</button>
+          <button class="filter-btn" data-filter="learning">Learning</button>
+        </div>
+      </div>
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card" data-category="web" data-search="school attendance management system">
+          <div class="card-icon icon-blue">🏫</div><div class="card-meta"><span>WEB APP</span><span class="status status-live">● Project link</span></div>
+          <h3>School Attendance System</h3><p>A school attendance management web app with student records and attendance features.</p>
+          <a class="project-link" href="https://gondalhassansajid-beep.github.io/muslim-education-modle-high-school-2/" target="_blank" rel="noopener noreferrer">Open Project <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="ai" data-search="hassan ai assistant artificial intelligence">
+          <div class="card-icon icon-purple">🤖</div><div class="card-meta"><span>AI & TECH</span><span class="status status-plan">● Add link</span></div>
+          <h3>Hassan AI Assistant</h3><p>Your planned AI assistant project. Add the published website link when it is ready.</p>
+          <a class="project-link project-placeholder" href="#contact">Add project link <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="games" data-search="hassan sajid arrow puzzle">
+          <div class="card-icon icon-cyan">➶</div><div class="card-meta"><span>GAME</span><span class="status status-plan">● Add link</span></div>
+          <h3>Hassan Sajid Arrow Puzzle</h3><p>A puzzle-game project with levels, skins, and other planned game features.</p>
+          <a class="project-link project-placeholder" href="#contact">Add project link <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="games" data-search="hassan sajid block puzzle">
+          <div class="card-icon icon-orange">🧩</div><div class="card-meta"><span>GAME</span><span class="status status-plan">● Add link</span></div>
+          <h3>Hassan Sajid Block Puzzle</h3><p>A block puzzle game concept created as a mobile-friendly coding project.</p>
+          <a class="project-link project-placeholder" href="#contact">Add project link <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="games" data-search="hassan sajid bubble shooter">
+          <div class="card-icon icon-pink">🫧</div><div class="card-meta"><span>GAME</span><span class="status status-plan">● Add link</span></div>
+          <h3>Hassan Sajid Bubble Shooter</h3><p>A bubble-shooting game idea with color matching, scores, and levels.</p>
+          <a class="project-link project-placeholder" href="#contact">Add project link <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="creative" data-search="photo editing portfolio picsart">
+          <div class="card-icon icon-pink">🖼️</div><div class="card-meta"><span>CREATIVE</span><span class="status status-plan">● Add samples</span></div>
+          <h3>Photo Editing Portfolio</h3><p>A gallery for your photo edits, cinematic looks, posters, and design samples.</p>
+          <a class="project-link project-placeholder" href="#contact">View portfolio <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="ai" data-search="ai video creator google flow">
+          <div class="card-icon icon-purple">🎬</div><div class="card-meta"><span>AI & VIDEO</span><span class="status status-plan">● Add channel</span></div>
+          <h3>AI Video Creator</h3><p>AI video concepts, short-film prompts, and creative video experiments.</p>
+          <a class="project-link project-placeholder" href="#contact">View videos <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="web" data-search="islamic app quran duas stories">
+          <div class="card-icon icon-green">🕌</div><div class="card-meta"><span>WEB APP</span><span class="status status-plan">● In progress</span></div>
+          <h3>Islamic Projects</h3><p>A place for Islamic learning ideas, duas, stories, tasbeeh, and useful resources.</p>
+          <a class="project-link project-placeholder" href="#contact">Open Project <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="learning" data-search="python projects games coding">
+          <div class="card-icon icon-yellow">🐍</div><div class="card-meta"><span>LEARNING</span><span class="status status-plan">● Add code</span></div>
+          <h3>Python Projects</h3><p>Small coding experiments and games built while learning Python on mobile.</p>
+          <a class="project-link project-placeholder" href="#contact">View projects <span>↗</span></a>
+        </article>
+        <article class="project-card" data-category="web" data-search="web development websites html css javascript">
+          <div class="card-icon icon-blue">💻</div><div class="card-meta"><span>WEB DEVELOPMENT</span><span class="status status-plan">● Growing</span></div>
+          <h3>Web Development</h3><p>Websites and experiments made with HTML, CSS, JavaScript, and other tools.</p>
+          <a class="project-link project-placeholder" href="#contact">View websites <span>↗</span></a>
+        </article>
+      </div>
+      <div class="empty-state" id="emptyState" hidden>No projects match your search. Try another word or category.</div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-wrap about-inner">
+        <div class="about-badge">HS<span>✦</span></div>
+        <div><div class="eyebrow">A LITTLE ABOUT ME</div><h2>Learning today.<br><span>Building tomorrow.</span></h2>
+          <p>I’m Hassan Sajid, a student and beginner creator exploring web development, games, AI tools, and digital design. This site is my home base for sharing projects as they grow.</p>
+          <div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>AI Tools</span><span>Creative Editing</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="contact-panel"><div><div class="eyebrow">LET'S CONNECT</div><h2>Have an idea? <span>Let's build.</span></h2><p>Update this section with your public email or social profile when you are ready.</p></div><a class="btn btn-primary" href="https://github.com/" target="_blank" rel="noopener noreferrer">My GitHub <span>↗</span></a></div>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">HASSAN SAJID <span>• DIGITAL WORLD</span></a><span>Built with curiosity and code. © <span id="year"></span></span><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
